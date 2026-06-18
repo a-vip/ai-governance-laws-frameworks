@@ -6,6 +6,20 @@ author:
   name: Avi Perera
   url: "https://aviperera.com"
 
+logo: "https://1.gravatar.com/avatar/602e6b20c242cbfebf5629da141528cb619fc18d360ef8542b82bb8a05c74269?size=256"
+
+twitter:
+  username: aviperera_
+
+social:
+  name: Avi Perera
+  links:
+    - https://twitter.com/aviperera_
+    - https://instagram.com/aviperera_
+    - https://www.researchgate.net/profile/Avi-Perera
+    - https://github.com/a-vip
+    - https://orcid.org/0009-0005-1903-6868
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
