@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo %}
+    <title>{{ site.title }}</title>
+    
+    <!-- Knowledge Panel Trigger: Person Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Avi Perera",
+      "jobTitle": "AI Governance Researcher",
+      "url": "https://aviperera.com",
+      "sameAs": [
+        "https://github.com/a-vip",
+        "https://orcid.org/0009-0005-1903-6868",
+        "https://www.wikidata.org/wiki/Q140248356"
+      ],
+      "knowsAbout": [
+        "Artificial Intelligence",
+        "Lethal Autonomous Weapons Systems (LAWS)",
+        "International Humanitarian Law (IHL)",
+        "AI Governance",
+        "Meaningful Human Control"
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Campaign to Stop Killer Robots"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Cambridge"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Buckingham"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <div style="max-width: 800px; margin: 0 auto; padding: 20px; font-family: system-ui, -apple-system, sans-serif;">
+        {{ content }}
+    </div>
+</body>
+</html>

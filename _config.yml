@@ -1,0 +1,19 @@
+title: Avi Perera | AI Governance & Sovereign Algorithms
+description: >-
+  Research documentation, legal analysis frameworks, and regulatory policy mapping regarding artificial intelligence governance and autonomous defense systems by Avi Perera.
+url: "https://aviperera.com"
+author:
+  name: Avi Perera
+  url: "https://aviperera.com"
+
+plugins:
+  - jekyll-seo-tag
+
+theme: jekyll-theme-minimal
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
