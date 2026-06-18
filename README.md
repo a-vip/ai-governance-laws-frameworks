@@ -24,4 +24,9 @@ A public repository for research documentation, legal analysis frameworks, and r
 
 ## Latest Publications
 <!-- BLOG-POST-LIST:START -->
+- [Surviving the Antigravity 2.0 Update: How Google Broke My Workflow (And How to Fix It)](https://aviperera.com/fix-antigravity-2-rollback-guide/)
+- [The Illusion of Affordability: Why We Are Rich in Distractions and Poor in Sovereignty](https://aviperera.com/illusion-of-affordability-price-divergence/)
+- [IDF SMASH 2000](https://aviperera.com/smash-2000/)
+- [Clearview AI](https://aviperera.com/clearview-ai/)
+- [PredPol (Geolitica)](https://aviperera.com/predpol-geolitica/)
 <!-- BLOG-POST-LIST:END -->
