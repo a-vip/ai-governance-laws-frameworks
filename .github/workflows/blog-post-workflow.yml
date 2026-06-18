@@ -29,7 +29,7 @@ jobs:
                   print("Error fetching RSS:", data)
                   exit(1)
                   
-              items = data.get("items", [])[:5]
+              items = data.get("items", [])[:8]
               posts_md = "\n".join([f"- [{item['title']}]({item['link']})" for item in items])
               
               with open("README.md", "r", encoding="utf-8") as f:

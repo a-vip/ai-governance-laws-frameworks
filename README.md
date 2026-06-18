@@ -9,9 +9,20 @@
   <a href="https://aviperera.com">
     <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Governance+Researcher;Lethal+Autonomous+Weapons+Systems+(LAWS)+Expert;International+Humanitarian+Law+Analyst;Founder+of+SovDash" alt="Typing SVG" />
   </a>
+  
   <br>
-  <a href="https://aviperera.com"><img src="https://img.shields.io/badge/Website-aviperera.com-blue?style=for-the-badge&logo=google-chrome" alt="Website"/></a>
-  <a href="https://orcid.org/0009-0005-1903-6868"><img src="https://img.shields.io/badge/ORCID-0009--0005--1903--6868-green?style=for-the-badge&logo=orcid" alt="ORCID"/></a>
+  
+  <div align="center">
+    <a href="https://aviperera.com"><img src="https://img.shields.io/badge/Website-aviperera.com-3B82F6?style=flat-square&logo=google-chrome&logoColor=white" alt="Website"/></a>
+    <a href="https://www.linkedin.com/in/avi-perera"><img src="https://img.shields.io/badge/LinkedIn-Avi%20Perera-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://x.com/aviperera_"><img src="https://img.shields.io/badge/X-@aviperera_-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
+    <a href="https://instagram.com/aviperera_"><img src="https://img.shields.io/badge/Instagram-@aviperera_-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a>
+    <a href="https://www.researchgate.net/profile/Avi-Perera"><img src="https://img.shields.io/badge/ResearchGate-Avi%20Perera-00CCBB?style=flat-square&logo=researchgate&logoColor=white" alt="ResearchGate"/></a>
+    <a href="https://orcid.org/0009-0005-1903-6868"><img src="https://img.shields.io/badge/ORCID-0009--0005--1903--6868-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
+    <a href="https://www.wikidata.org/wiki/Q140248356"><img src="https://img.shields.io/badge/Wikidata-Q140248356-990000?style=flat-square&logo=wikidata&logoColor=white" alt="Wikidata"/></a>
+    <a href="https://bsky.app/profile/aviperera.bsky.social"><img src="https://img.shields.io/badge/Bluesky-@aviperera-0285FF?style=flat-square&logo=bluesky&logoColor=white" alt="Bluesky"/></a>
+    <a href="https://tiktok.com/@aviperera_"><img src="https://img.shields.io/badge/TikTok-@aviperera_-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok"/></a>
+  </div>
 </div>
 
 <br>
@@ -21,11 +32,24 @@
     <td width="60%" valign="top" style="border: none;">
       <h3>🔬 Core Research Focus</h3>
       <ul>
-        <li>🎯 <strong>Lethal Autonomous Weapons Systems (LAWS):</strong> Defining and enforcing parameters of meaningful human control (MHC) in modern warfare.</li>
-        <li>⚖️ <strong>International Humanitarian Law (IHL):</strong> Mapping algorithmic targeting compliance against existing Geneva frameworks.</li>
-        <li>🌐 <strong>SovDash Intelligence:</strong> Architectural frameworks for tracking international AI compliance, treaties, and national security policies.</li>
+        <li>🎯 <strong>Lethal Autonomous Weapons Systems (LAWS):</strong> Defining parameters of meaningful human control (MHC) in warfare.</li>
+        <li>⚖️ <strong>International Humanitarian Law (IHL):</strong> Algorithmic targeting compliance vs Geneva frameworks.</li>
+        <li>🌐 <strong>SovDash Intelligence:</strong> Tracking global AI compliance, national security policies, and treaties.</li>
       </ul>
+      
       <br>
+      
+      <h3>📄 Scholarly & Working Papers</h3>
+      <ul>
+        <li>📄 <strong><a href="https://www.researchgate.net/doi/10.13140/RG.2.2.15350.92489">The Algorithmic Reshaping of Radicalisation Pathways</a></strong> (2025)</li>
+        <li>📄 <strong><a href="https://www.researchgate.net/doi/10.13140/RG.2.2.10288.67842">Weapons That Think Must Not Decide (UNIDIR Poster)</a></strong> (2025)</li>
+        <li>📄 <strong><a href="https://www.researchgate.net/doi/10.13140/RG.2.2.12596.31360">Why Do States Comply With International Agreements?</a></strong> (2025)</li>
+        <li>📄 <strong><a href="https://www.researchgate.net/doi/10.13140/RG.2.2.15112.89603">The Myth of the "Third World": Language of Empire</a></strong> (2025)</li>
+        <li>📄 <strong><a href="https://www.researchgate.net/doi/10.13140/RG.2.2.21829.51684">Social Media Impacts on Critical Thinking</a></strong> (2023)</li>
+      </ul>
+      
+      <br>
+      
       <h3>🏛️ Institutional Affiliations</h3>
       <ul>
         <li>🇺🇳 <strong>United Nations Institute for Disarmament Research (UNIDIR)</strong></li>
@@ -53,9 +77,7 @@
 - [IDF SMASH 2000](https://aviperera.com/smash-2000/)
 - [Clearview AI](https://aviperera.com/clearview-ai/)
 - [PredPol (Geolitica)](https://aviperera.com/predpol-geolitica/)
+- [Palantir Project Maven](https://aviperera.com/palantir-project-maven/)
+- [MQ-28 Ghost Bat](https://aviperera.com/mq-28-ghost-bat/)
+- [The Global Shell Game: What “Meaningful Human Control” Actually Means—and Why No One Agrees](https://aviperera.com/meaningful-human-control-autonomous-weapons/)
 <!-- BLOG-POST-LIST:END -->
-
-<br>
-<div align="center">
-  <img src="https://img.shields.io/badge/Wikidata-Q140248356-lightgrey?style=flat&logo=wikidata" alt="Wikidata"/>
-</div>
