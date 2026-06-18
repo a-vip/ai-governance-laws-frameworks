@@ -14,42 +14,43 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Fetch and Update README
-        env:
-          PYTHON_SCRIPT: |
-            import urllib.request, json, re
-            
-            url = 'https://api.rss2json.com/v1/api.json?rss_url=https://aviperera.com/feed/'
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            
-            try:
-                with urllib.request.urlopen(req) as response:
-                    data = json.loads(response.read().decode())
-                
-                if data.get("status") != "ok":
-                    print("Error fetching RSS:", data)
-                    exit(1)
-                    
-                items = data.get("items", [])[:5]
-                posts_md = "\n".join([f"- [{item['title']}]({item['link']})" for item in items])
-                
-                with open("README.md", "r", encoding="utf-8") as f:
-                    readme = f.read()
-                    
-                new_readme = re.sub(
-                    r"<!-- BLOG-POST-LIST:START -->.*<!-- BLOG-POST-LIST:END -->",
-                    f"<!-- BLOG-POST-LIST:START -->\n{posts_md}\n<!-- BLOG-POST-LIST:END -->",
-                    readme,
-                    flags=re.DOTALL
-                )
-                
-                with open("README.md", "w", encoding="utf-8") as f:
-                    f.write(new_readme)
-                    
-                print("Successfully updated README.md with latest posts.")
-            except Exception as e:
-                print("Failed to update README:", e)
-                exit(1)
-        run: python -c "$PYTHON_SCRIPT"
+        run: |
+          cat << 'EOF' > update_readme.py
+          import urllib.request, json, re
+          
+          url = 'https://api.rss2json.com/v1/api.json?rss_url=https://aviperera.com/feed/'
+          req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+          
+          try:
+              with urllib.request.urlopen(req) as response:
+                  data = json.loads(response.read().decode())
+              
+              if data.get("status") != "ok":
+                  print("Error fetching RSS:", data)
+                  exit(1)
+                  
+              items = data.get("items", [])[:5]
+              posts_md = "\n".join([f"- [{item['title']}]({item['link']})" for item in items])
+              
+              with open("README.md", "r", encoding="utf-8") as f:
+                  readme = f.read()
+                  
+              new_readme = re.sub(
+                  r"<!-- BLOG-POST-LIST:START -->.*<!-- BLOG-POST-LIST:END -->",
+                  f"<!-- BLOG-POST-LIST:START -->\n{posts_md}\n<!-- BLOG-POST-LIST:END -->",
+                  readme,
+                  flags=re.DOTALL
+              )
+              
+              with open("README.md", "w", encoding="utf-8") as f:
+                  f.write(new_readme)
+                  
+              print("Successfully updated README.md with latest posts.")
+          except Exception as e:
+              print("Failed to update README:", e)
+              exit(1)
+          EOF
+          python update_readme.py
           
       - name: Commit and Push changes
         run: |
