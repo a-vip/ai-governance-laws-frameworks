@@ -36,9 +36,6 @@
         <li>⚖️ <strong>International Humanitarian Law (IHL):</strong> Algorithmic targeting compliance vs Geneva frameworks.</li>
         <li>🌐 <strong>SovDash Intelligence:</strong> Tracking global AI compliance, national security policies, and treaties.</li>
       </ul>
-      
-      <br>
-      
       <h3>📄 Scholarly & Working Papers</h3>
       <ul>
         <li>📄 <strong><a href="https://www.researchgate.net/doi/10.13140/RG.2.2.15350.92489">The Algorithmic Reshaping of Radicalisation Pathways</a></strong> (2025)</li>
@@ -47,9 +44,6 @@
         <li>📄 <strong><a href="https://www.researchgate.net/doi/10.13140/RG.2.2.15112.89603">The Myth of the "Third World": Language of Empire</a></strong> (2025)</li>
         <li>📄 <strong><a href="https://www.researchgate.net/doi/10.13140/RG.2.2.21829.51684">Social Media Impacts on Critical Thinking</a></strong> (2023)</li>
       </ul>
-      
-      <br>
-      
       <h3>🏛️ Institutional Affiliations</h3>
       <ul>
         <li>🇺🇳 <strong>United Nations Institute for Disarmament Research (UNIDIR)</strong></li>
@@ -77,7 +71,12 @@
 - [IDF SMASH 2000](https://aviperera.com/smash-2000/)
 - [Clearview AI](https://aviperera.com/clearview-ai/)
 - [PredPol (Geolitica)](https://aviperera.com/predpol-geolitica/)
+
+<details>
+<summary><b>📖 Load More Publications</b></summary>
+
 - [Palantir Project Maven](https://aviperera.com/palantir-project-maven/)
 - [MQ-28 Ghost Bat](https://aviperera.com/mq-28-ghost-bat/)
 - [The Global Shell Game: What “Meaningful Human Control” Actually Means—and Why No One Agrees](https://aviperera.com/meaningful-human-control-autonomous-weapons/)
+</details>
 <!-- BLOG-POST-LIST:END -->

@@ -29,8 +29,17 @@ jobs:
                   print("Error fetching RSS:", data)
                   exit(1)
                   
-              items = data.get("items", [])[:8]
-              posts_md = "\n".join([f"- [{item['title']}]({item['link']})" for item in items])
+              items = data.get("items", [])[:15]
+              
+              primary_items = items[:5]
+              remaining_items = items[5:]
+              
+              posts_md = "\n".join([f"- [{item['title']}]({item['link']})" for item in primary_items])
+              
+              if remaining_items:
+                  posts_md += "\n\n<details>\n<summary><b>📖 Load More Publications</b></summary>\n\n"
+                  posts_md += "\n".join([f"- [{item['title']}]({item['link']})" for item in remaining_items])
+                  posts_md += "\n</details>"
               
               with open("README.md", "r", encoding="utf-8") as f:
                   readme = f.read()
