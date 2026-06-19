@@ -78,5 +78,7 @@
 - [Palantir Project Maven](https://aviperera.com/palantir-project-maven/)
 - [MQ-28 Ghost Bat](https://aviperera.com/mq-28-ghost-bat/)
 - [The Global Shell Game: What “Meaningful Human Control” Actually Means—and Why No One Agrees](https://aviperera.com/meaningful-human-control-autonomous-weapons/)
+- [The Consensus Trap: How Five Nations Quietly Derailed the Global Ban on Killer Robots](https://aviperera.com/consensus-trap-global-ban-killer-robots/)
+- [The Algorithmic Battlefield: 5 Takeaways from the Silent Revolution in Warfare](https://aviperera.com/algorithmic-battlefield-ai-modern-warfare/)
 </details>
 <!-- BLOG-POST-LIST:END -->
